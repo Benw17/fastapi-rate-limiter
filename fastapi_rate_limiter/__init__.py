@@ -1,6 +1,6 @@
 from .limiter import RateLimiter, rate_limit_middleware, rate_limit_dependency
-from .mem_storage import MemoryStorage, RateLimitCountStorage
-from .redis_storage import RedisStorage
+from .storage.mem_storage import MemoryStorage, RateLimitCountStorage
+from .storage.redis_storage import RedisStorage
 
 __all__ = [
     "RateLimiter",
