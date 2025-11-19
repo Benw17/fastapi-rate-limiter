@@ -7,3 +7,14 @@ __pycache__/
 
 # pytest cache
 .pytest_cache/
+
+# venv
+venv/
+.env/
+.venv/
+env/
+
+# Egg Info
+.fastapi_rate_limiter.egg-info/
+.dist/
+

@@ -3,13 +3,13 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fastapi-rate-limiter"
+name = "fastapi-rate-limiter-benw17"
 version = "0.1.0"
 description = "A simple rate limiting library for FastAPI using in-memory or Redis storage"
 authors = [{ name = "Benjamin White", email = "whitb20@yahoo.com.au" }]
 readme = "README.md"
 license = { text = "MIT" }
-keywords = ["fastapi", "rate-limiter", "middleware", "asyncio"]
+keywords = ["fastapi", "rate-limit", "middleware", "redis", "asyncio"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Framework :: FastAPI",
@@ -18,12 +18,15 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 
+dependencies = [
+    "fastapi>=0.103.0",
+    "httpx>=1.8.0",
+    "redis>=5.0.0",
+]
+
 [project.urls]
 Homepage = "https://github.com/Benw17/fastapi-rate-limiter"
-
-[project.dependencies]
-fastapi = ">=0.103.0"
-httpx = ">=1.8.0"
+Documentation = "https://github.com/Benw17/fastapi-rate-limiter#readme"
 
 [project.optional-dependencies]
 dev = [
@@ -38,4 +41,4 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-exclude = ["tests*"]
+exclude = ["tests*", "example_usage.py"]
