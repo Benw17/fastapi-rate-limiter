@@ -64,7 +64,6 @@ def rate_limit_dependency(rate=None, key_func=identify_request):
         # mark the endpoint / route as having its own limiter
         request.scope["endpoint"].rate_limited = True
         await limiter.check_limit(key, rate or limiter.default_rate)
-
     return dependency
 
 
