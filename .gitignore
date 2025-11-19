@@ -15,6 +15,9 @@ venv/
 env/
 
 # Egg Info
-.fastapi_rate_limiter.egg-info/
-.dist/
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
 
