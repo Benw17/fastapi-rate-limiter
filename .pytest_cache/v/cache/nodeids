@@ -1,0 +1,12 @@
+[
+  "tests/test_limiter.py::test_concurrent_requests",
+  "tests/test_limiter.py::test_custom_route",
+  "tests/test_limiter.py::test_dependency_limit",
+  "tests/test_limiter.py::test_global_limit",
+  "tests/test_limiter.py::test_global_plus_dependency_independent",
+  "tests/test_limiter.py::test_ip_fallback",
+  "tests/test_limiter.py::test_ip_isolation",
+  "tests/test_limiter.py::test_route_isolation",
+  "tests/test_limiter.py::test_storage_increments",
+  "tests/test_limiter.py::test_window_resets"
+]
