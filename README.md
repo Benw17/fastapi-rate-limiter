@@ -1,6 +1,7 @@
 # fastapi-rate-limiter
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[fastapi-rate-limiter-benw17 0.1.0](https://pypi.org/manage/project/fastapi-rate-limiter-benw17/release/0.1.0/)
 
 A simple and flexible **rate limiting library for FastAPI** with support for in-memory and Redis storage.
 
