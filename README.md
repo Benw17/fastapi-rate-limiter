@@ -1,7 +1,5 @@
 # fastapi-rate-limiter
 
-[![PyPI](https://img.shields.io/pypi/v/fastapi-rate-limiter.svg)](https://pypi.org/project/fastapi-rate-limiter/)
-[![Python Version](https://img.shields.io/pypi/pyversions/fastapi-rate-limiter.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A simple and flexible **rate limiting library for FastAPI** with support for in-memory and Redis storage.
